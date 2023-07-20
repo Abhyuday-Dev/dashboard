@@ -106,7 +106,7 @@
         padding: 1rem;
     }
     .info-box{
-        padding: 0rem 2rem;
+        padding: 0rem 1rem;
     }
     .bottom-content {
       justify-content: center;
@@ -127,9 +127,9 @@
         gap: 10px;
     }
     .bottom-sub{
-        padding: 0rem 2rem;
+        padding: 0rem 1rem;
     }
     .bottom-h3{
-        padding: 0rem 2rem;
+        padding: 0rem 1rem;
     }
   }
