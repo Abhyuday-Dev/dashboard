@@ -1,0 +1,13 @@
+
+@media (max-width: 780px) {
+  .charts{
+    display: none;
+  }
+}
+@media (max-width: 480px) {
+   .charts{
+    display: none;
+   }
+  }
+  
+  

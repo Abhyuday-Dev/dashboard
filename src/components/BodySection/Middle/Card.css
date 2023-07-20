@@ -1,0 +1,31 @@
+/* Default styles for the box container */
+.box-container {
+  width: 190px;
+  padding: 1rem 0rem;
+  margin-right: 1rem;
+  gap: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.box-container p {
+  color: #c0c0c0;
+  font-size: 0.7rem;
+}
+
+.box-container hr {
+  border-color: blue;
+  border-width: 1px;
+}
+
+
+@media (max-width: 480px) {
+  .box-container.first-card {
+   width: 100%;
+  }
+  .box-container{
+    width: 100px;
+  }
+}
+

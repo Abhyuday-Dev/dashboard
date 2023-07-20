@@ -1,0 +1,31 @@
+.transaction-section{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.transaction-data{
+    display: flex;
+    flex-direction: column;
+}
+.transaction-data p{
+    font-size: 0.8rem;
+    font-weight: 500;
+    color:#c0c0c0;
+}
+.transaction-data h5{
+    font-weight: 500;
+    margin-bottom: 12px;
+}
+hr{
+    border-color: #eae3e3;
+    border-width: 0.9px;
+}
+
+@media (max-width: 780px) {
+    .transaction-section{
+        width: 100%;
+        background-color: #f6f6f6; 
+        padding: 2rem;
+        border-radius: 10px;
+}
+}

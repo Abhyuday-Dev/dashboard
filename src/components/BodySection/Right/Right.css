@@ -1,0 +1,10 @@
+.right-container{
+    width: 35%;
+    padding: 3rem;
+}
+@media (max-width: 780px) {
+    .right-container{
+        width: 100%;
+        padding: 0;
+    }
+}
