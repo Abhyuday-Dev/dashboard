@@ -27,5 +27,9 @@
   .box-container{
     width: 100px;
   }
+  .box-container p {
+    color: #c0c0c0;
+    font-size: 0.5rem;
+  }
 }
 
