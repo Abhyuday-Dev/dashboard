@@ -117,10 +117,10 @@
     .data-bottom {
       width: 100%;
       gap: 15px;
-      padding: 0 2rem;
+      padding: 0 1rem;
     }
     .middle-heading{
-        padding:0rem  2rem;
+        padding:0rem  1rem;
     }
     
     .radial-chart{
