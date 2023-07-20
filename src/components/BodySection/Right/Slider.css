@@ -25,3 +25,11 @@
   cursor: pointer;
 }
 
+@media (max-width: 480px) {
+  .slider{
+    width: 200px;
+  }
+}
+
+
+
