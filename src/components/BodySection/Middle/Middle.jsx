@@ -19,7 +19,7 @@ const Middle = () => {
       <div className="info-box">
         <Card heading="$300,000" subheading="My Goal"   isFirstCard={true}/>
         <Card heading="59%" subheading="Goal Achieved" />
-        <Card heading="$300" subheading="Est.Monthly Income" />
+        <Card heading="$300" subheading="Monthly Income" />
       </div>
       <div className="chart-section">
         <Charts />
