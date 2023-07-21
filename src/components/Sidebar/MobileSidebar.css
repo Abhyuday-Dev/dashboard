@@ -38,10 +38,13 @@ a{
 
 @media (max-width: 480px) {
     .m-nav-link{
-        font-size: 1.6rem;
+        font-size: 1.7rem;
     }
     .m-nav-item{
         width: 35px;
         height: 30px;
+    }
+    .mobile-nav-menu{
+        padding: 0.5rem 0;
     }
 }
