@@ -60,9 +60,8 @@
 
 @media (max-width: 480px) {
     .today-section{
-       
+       padding: 1rem;;
         width: 80%;
-        margin: 1rem;
        
     }
     .today-content h4{
