@@ -1,9 +1,5 @@
-
-
 @media (max-width: 1000px) {
-   .charts{
+  .charts {
     display: none;
-   }
   }
-  
-  
+}

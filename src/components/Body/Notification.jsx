@@ -1,9 +1,10 @@
 import React from 'react';
 import {FiBell} from "react-icons/fi";
+import "./Notification.css";
 
 const Notification = () => {
   return (
-    <div>Notification</div>
+    <div className='bell'><FiBell /></div>
   )
 }
 

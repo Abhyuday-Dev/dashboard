@@ -1,15 +1,15 @@
-import React from 'react';
+import React from "react";
 import Chart from "react-apexcharts";
 import "./Chart3.css";
 
 const Chart3 = () => {
   const chartOptions = {
     title: {
-      text: 'Contributions Overtime',
+      text: "Contributions Overtime",
       style: {
-        fontSize: '20px',
-        fontWeight: 'bold', 
-        color: '#333', 
+        fontSize: "20px",
+        fontWeight: "bold",
+        color: "#333",
       },
     },
     chart: {
@@ -19,43 +19,43 @@ const Chart3 = () => {
       categories: [20, 25, 30, 35, 40, 60, 65],
       labels: {
         style: {
-          colors: '#c0c0c0', // Change the color of x-axis labels
-          fontSize: '12px',
-          fontWeight:"500"
+          colors: "#c0c0c0",
+          fontSize: "12px",
+          fontWeight: "500",
         },
       },
     },
     yaxis: {
       labels: {
         formatter: function (value) {
-          return '$'+value.toFixed(0);
+          return "$" + value.toFixed(0);
         },
         style: {
-          colors: '#c0c0c0', // Change the color of x-axis labels
-          fontSize: '12px',
-          fontWeight:"500"
+          colors: "#c0c0c0",
+          fontSize: "12px",
+          fontWeight: "500",
         },
       },
     },
     tooltip: {
       y: {
         formatter: function (value) {
-          return '$'+ value.toFixed(0);
+          return "$" + value.toFixed(0);
         },
       },
     },
     dataLabels: {
-      enabled: false, 
+      enabled: false,
     },
     plotOptions: {
       bar: {
-        horizontal: false, 
-        columnWidth: '30%', 
+        horizontal: false,
+        columnWidth: "30%",
       },
     },
     legend: {
-      position: 'top',
-      fontSize: '10px',
+      position: "top",
+      fontSize: "10px",
       display: "inline-block",
       width: "80px",
     },
@@ -64,24 +64,30 @@ const Chart3 = () => {
   const chartSeries = [
     {
       name: "Employer:K 72,000",
-      data: [10, 40, 80, 120, 160, 200, 240], 
+      data: [10, 40, 80, 120, 160, 200, 240],
       color: "#00008b",
     },
     {
       name: "Employee:K 52,000",
-      data: [20, 40, 80, 120, 160, 200, 240], 
+      data: [20, 40, 80, 120, 160, 200, 240],
       color: "#6528F7",
     },
     {
       name: "Total Interest:K 214.555",
-      data: [30, 40, 80, 120, 160, 200, 240], 
+      data: [30, 40, 80, 120, 160, 200, 240],
       color: "#75C2F6",
     },
   ];
 
   return (
-    <div className='chart-3'>
-      <Chart options={chartOptions} series={chartSeries} type="bar" width={320} height={250} />
+    <div className="chart-3">
+      <Chart
+        options={chartOptions}
+        series={chartSeries}
+        type="bar"
+        width={320}
+        height={250}
+      />
     </div>
   );
 };
