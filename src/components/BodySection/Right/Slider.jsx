@@ -1,8 +1,8 @@
-import React, { useEffect, useState, useRef } from 'react';
-import './Slider.css'; 
+import React, { useEffect, useState, useRef } from "react";
+import "./Slider.css";
 
 const MySlider = ({ defaultValue }) => {
-  const [sliderValue, setSliderValue] = useState(defaultValue || 50); 
+  const [sliderValue, setSliderValue] = useState(defaultValue || 50);
   const sliderRef = useRef(null);
 
   const handleChange = (event) => {
@@ -20,18 +20,18 @@ const MySlider = ({ defaultValue }) => {
 
   useEffect(() => {
     updateSliderThumbColor(sliderValue);
-  }, [sliderValue]); 
+  }, [sliderValue]);
 
   return (
-    <div className='slider-container'>
+    <div className="slider-container">
       <input
-        type='range'
-        className='slider'
+        type="range"
+        className="slider"
         value={sliderValue}
-        min='0'
-        max='100'
+        min="0"
+        max="100"
         onChange={handleChange}
-        ref={sliderRef} 
+        ref={sliderRef}
       />
     </div>
   );

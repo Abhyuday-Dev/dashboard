@@ -19,12 +19,11 @@
   border-width: 1px;
 }
 
-
 @media (max-width: 480px) {
   .box-container.first-card {
-   width: 100%;
+    width: 100%;
   }
-  .box-container{
+  .box-container {
     width: 110px;
   }
   .box-container p {
@@ -32,4 +31,3 @@
     font-size: 0.5rem;
   }
 }
-

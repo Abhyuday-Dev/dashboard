@@ -1,15 +1,15 @@
-import React from 'react';
+import React from "react";
 import "./Right.css";
-import Summary from './Summary';
-import RightData from './RightData';
+import Summary from "./Summary";
+import RightData from "./RightData";
 
 const Right = () => {
   return (
-    <div className='right-container'>
+    <div className="right-container">
       <RightData />
       <Summary />
     </div>
-  )
-}
+  );
+};
 
-export default Right
+export default Right;

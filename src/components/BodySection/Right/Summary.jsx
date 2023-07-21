@@ -4,9 +4,9 @@ import "./Summary.css";
 const Summary = () => {
   return (
     <div className="summary">
-      <h4 style={{ fontSize: "14px", color: "#c0c0c0",fontWeight:"500" }}>
+      <h4 style={{ fontSize: "14px", color: "#c0c0c0", fontWeight: "500" }}>
         Are you Considering a <br />
-        <span style={{ fontSize: "17px", color: "black",fontWeight:"700"  }}>
+        <span style={{ fontSize: "17px", color: "black", fontWeight: "700" }}>
           Housing Advance?
         </span>
       </h4>

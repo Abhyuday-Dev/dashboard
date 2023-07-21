@@ -1,31 +1,27 @@
-
-
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-
 }
 
-a{
+a {
   text-decoration: none;
 }
-li{
+li {
   list-style: none;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600&display=swap');
-.app{
+@import url("https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600&display=swap");
+.app {
   height: 96vh;
   border-radius: 10px;
   display: flex;
   background-color: white;
-  font-family: 'Lora', serif;
+  font-family: "Lora", serif;
 }
 
-
 @media (max-width: 1000px) {
-  .app{
+  .app {
     height: 100%;
     border-radius: 0;
     display: inline;

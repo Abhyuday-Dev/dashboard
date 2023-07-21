@@ -1,16 +1,16 @@
-.summary{
-    margin-top: 2rem;
-    padding: 0 1.8rem;
-    display: flex;
-    flex-direction: column;
-    align-self: flex-start;
-    gap: 6px;
-    border-left: 2px solid blue;
-    width: 100%;
+.summary {
+  margin-top: 2rem;
+  padding: 0 1.8rem;
+  display: flex;
+  flex-direction: column;
+  align-self: flex-start;
+  gap: 6px;
+  border-left: 2px solid blue;
+  width: 100%;
 }
 
 @media (max-width: 1000px) {
-    .summary{
-        display: none;
-    }
+  .summary {
+    display: none;
+  }
 }

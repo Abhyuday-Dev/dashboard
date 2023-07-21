@@ -1,61 +1,60 @@
-.right-data{
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-    background-color: #f6f6f6;
-    padding: 2rem;
-    border-radius: 20px;
+.right-data {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  background-color: #f6f6f6;
+  padding: 2rem;
+  border-radius: 20px;
 }
-.right-data h3{
-    font-weight: 600;
-}
-
-.right-data-content{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 10px;
-    font-weight: 600;
-}
-.slider-component{
-    display: flex;
-    align-items: center;
-    gap: 20px;
-}
-.right-bottom-data{
-    display: flex;
-    justify-content: space-between;
-}
-.right-bottom-data p{
-    font-weight: 500;
-}
-.right-btn{
-    width: 100%;
-    text-align: center;
-    background-color: blue;
-    padding: 0.6rem 1rem;
-    border-radius: 10px;
-    color: white;
+.right-data h3 {
+  font-weight: 600;
 }
 
+.right-data-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  font-weight: 600;
+}
+.slider-component {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.right-bottom-data {
+  display: flex;
+  justify-content: space-between;
+}
+.right-bottom-data p {
+  font-weight: 500;
+}
+.right-btn {
+  width: 100%;
+  text-align: center;
+  background-color: blue;
+  padding: 0.6rem 1rem;
+  border-radius: 10px;
+  color: white;
+}
 
 @media (max-width: 1200px) {
-    .right-data{
-        padding: 1rem;
-    }
+  .right-data {
+    padding: 1rem;
+  }
 }
 
 @media (max-width: 1000px) {
-    .right-data{
-        width: 100%;
-        padding: 2rem;
-        border-top-left-radius: 10px;
-        border-top-right-radius: 10px;
-        border-bottom-right-radius: 0px;
-        border-bottom-left-radius: 0px;
-    }
-    .slider-component{
-        width: 100%;
-        justify-content: space-between;
-    }
+  .right-data {
+    width: 100%;
+    padding: 2rem;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+  }
+  .slider-component {
+    width: 100%;
+    justify-content: space-between;
+  }
 }

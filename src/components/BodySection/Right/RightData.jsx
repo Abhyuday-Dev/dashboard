@@ -32,8 +32,16 @@ const RightData = () => {
         <p>6%</p>
       </div>
       <div className="right-btn">Update</div>
-      <p style={{textAlign:"center",fontSize:"12px",color:"blue",fontWeight:"500"}}>View Help Docs &gt;</p>
-
+      <p
+        style={{
+          textAlign: "center",
+          fontSize: "12px",
+          color: "blue",
+          fontWeight: "500",
+        }}
+      >
+        View Help Docs &gt;
+      </p>
     </div>
   );
 };
