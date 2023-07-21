@@ -12,6 +12,7 @@ const MobileSidebar = () => {
       <li className='m-nav-item'><a href="#" className='m-nav-link'><BiCreditCardFront /></a></li>
       <li className='m-nav-item'><a href="#" className='m-nav-link'><BsCardList /></a></li>
       <li className='m-nav-item'><a href="#" className='m-nav-link'><BiUser /></a></li>
+      <li className='m-nav-item'><a href="#" className='m-nav-link'><BiSearchAlt2 /></a></li>
     </ul>
   </div>
    </div>
