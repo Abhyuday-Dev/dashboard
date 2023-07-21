@@ -68,7 +68,8 @@
 }
 
 
-@media (max-width: 780px) {
+
+@media (max-width: 1000px) {
     .middle-container {
       width: 100%;
       background-color: white;

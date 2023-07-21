@@ -22,7 +22,7 @@ li{
 }
 
 
-@media (max-width: 780px) {
+@media (max-width: 1000px) {
   .app{
     height: 100%;
     border-radius: 0;

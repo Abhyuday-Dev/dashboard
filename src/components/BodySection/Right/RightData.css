@@ -38,7 +38,7 @@
     color: white;
 }
 
-@media (max-width: 780px) {
+@media (max-width: 1000px) {
     .right-data{
         width: 100%;
         border-top-left-radius: 10px;

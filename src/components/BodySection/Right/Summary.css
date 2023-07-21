@@ -9,7 +9,7 @@
     width: 100%;
 }
 
-@media (max-width: 780px) {
+@media (max-width: 1000px) {
     .summary{
         display: none;
     }

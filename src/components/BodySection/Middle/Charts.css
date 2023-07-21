@@ -1,10 +1,6 @@
 
-@media (max-width: 780px) {
-  .charts{
-    display: none;
-  }
-}
-@media (max-width: 480px) {
+
+@media (max-width: 1000px) {
    .charts{
     display: none;
    }

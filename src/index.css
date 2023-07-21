@@ -9,7 +9,7 @@ body {
   background-color: #d6d6d6;
 }
 
-@media (max-width: 780px) {
+@media (max-width: 1000px) {
   body{
     padding: 0;
     height: 100%;
