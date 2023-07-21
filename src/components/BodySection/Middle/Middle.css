@@ -41,7 +41,7 @@
 }
 .data {
   display: flex;
-  width: 115  px;
+  width: 115px;
   gap: 5px;
   align-items: center;
   font-size: 0.5rem;
