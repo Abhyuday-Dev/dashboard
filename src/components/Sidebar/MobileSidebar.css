@@ -26,8 +26,7 @@ a{
 
     }
     .m-nav-item{
-        width: 40px;
-        height: 35px;
+       
         color: white;
     }
     .m-nav-link{
@@ -40,11 +39,7 @@ a{
     .m-nav-link{
         font-size: 1.7rem;
     }
-    .m-nav-item{
-        width: 35px;
-        height: 30px;
-    }
     .mobile-nav-menu{
-        padding: 0.5rem 0;
+        padding: 0.3rem 0;
     }
 }
