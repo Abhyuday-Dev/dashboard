@@ -71,6 +71,7 @@
 @media (max-width: 780px) {
     .middle-container {
       width: 100%;
+      background-color: white;
     }
     .bottom-content {
       justify-content: flex-start;

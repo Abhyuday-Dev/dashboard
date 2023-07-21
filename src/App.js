@@ -1,6 +1,7 @@
 
 import './App.css';
 import Main from './components/Body/Main';
+import MobileSidebar from './components/Sidebar/MobileSidebar';
 import Sidebar from './components/Sidebar/Sidebar';
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
    <div className='app'>
     <Sidebar />
     <Main />
+    <MobileSidebar />
    </div>
   );
 }

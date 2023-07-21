@@ -1,0 +1,38 @@
+.mobile-nav-menu{
+    display: none;
+}
+a{
+    text-decoration: none;
+}
+
+@media (max-width: 780px) {
+  
+    .mobile-nav-menu{
+        display: block;
+        align-items: center;
+        background-color: #fff;
+        padding: 0.8rem 0;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        
+        
+    }
+    .mobile-nav-list{
+        display: flex;
+        justify-content: space-around;
+        font-size: 2rem;
+
+    }
+    .m-nav-item{
+        width: 40px;
+        height: 35px;
+        font-size: 2rem;
+        color: white;
+    }
+    .m-nav-link{
+        font-size: 2rem;
+        color: grey;
+    }
+}
