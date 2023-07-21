@@ -10,7 +10,7 @@ const Sidebar = () => {
     <div className='sidebar-container'>
    <div className="top-menu">
    <div className="logo">
-        <img src="https://cdn-icons-png.flaticon.com/512/338/338337.png" alt="" />
+        <img src="https://cdn-icons-png.flaticon.com/512/42/42329.png" alt="" />
         <BiSearchAlt2 />
       </div>
       <div className="nav-menu">

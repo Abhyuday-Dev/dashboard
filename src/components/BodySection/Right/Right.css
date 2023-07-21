@@ -2,6 +2,13 @@
     width: 35%;
     padding: 3rem;
 }
+
+@media (max-width: 1000px) {
+    .right-container{
+        width: 20%;
+        padding: 0rem;
+    }
+}
 @media (max-width: 1000px) {
     .right-container{
         width: 100%;

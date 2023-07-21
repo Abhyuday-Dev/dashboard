@@ -2,6 +2,7 @@
     display: flex;
     flex-direction: column;
     gap: 10px;
+    margin-bottom: 1rem;
 }
 .heading{
     font-weight: 500;
@@ -32,6 +33,18 @@
 }
 
 
+@media (max-width: 1200px) {
+    .today-container{
+        padding: 0;
+    }
+    .button{
+        padding: 0.2rem;
+    }
+    .icon{
+        padding-top: 0;
+        font-size: 1rem;
+    }
+}
 
 @media (max-width: 1000px) {
     .today-container{
@@ -56,6 +69,21 @@
         text-align: center;
         justify-content: center;
     }
+    .button{
+        display: flex;
+        background-color: blue;
+        color: white;
+        align-items: center;
+        gap: 5px;
+        width: fit-content;
+        padding: 0.4rem 1rem;
+        border-radius: 10px;
+    }
+    .icon{
+        font-size: 1.1rem;
+        padding-top: 7px;
+    }
+    
 }
 
 @media (max-width: 480px) {
@@ -70,6 +98,11 @@
         font-size: 0.6rem;
         color:#c0c0c0;
     }
-    
-    
+}
+
+@media (max-width: 375px) {
+    .today-section{
+        width: 100%;
+        gap: 18px;
+    }
 }

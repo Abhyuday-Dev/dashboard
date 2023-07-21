@@ -14,11 +14,13 @@ li{
   list-style: none;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600&display=swap');
 .app{
   height: 96vh;
   border-radius: 10px;
   display: flex;
   background-color: white;
+  font-family: 'Lora', serif;
 }
 
 

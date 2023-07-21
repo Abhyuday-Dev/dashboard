@@ -16,14 +16,33 @@ const Chart3 = () => {
       stacked: true,
     },
     xaxis: {
-      categories: [20,,25,,30,,35, ,40, ,60, ,65],
+      categories: [20, 25, 30, 35, 40, 60, 65],
+      labels: {
+        style: {
+          colors: '#c0c0c0', // Change the color of x-axis labels
+          fontSize: '12px',
+          fontWeight:"500"
+        },
+      },
     },
     yaxis: {
-      categories: [0, 100, 200, 400],
       labels: {
-        maxItems: 4,
+        formatter: function (value) {
+          return '$'+value.toFixed(0);
+        },
+        style: {
+          colors: '#c0c0c0', // Change the color of x-axis labels
+          fontSize: '12px',
+          fontWeight:"500"
+        },
       },
-      forceNiceScale: false,
+    },
+    tooltip: {
+      y: {
+        formatter: function (value) {
+          return '$'+ value.toFixed(0);
+        },
+      },
     },
     dataLabels: {
       enabled: false, 
@@ -36,25 +55,27 @@ const Chart3 = () => {
     },
     legend: {
       position: 'top',
-      fontSize: '10px' 
+      fontSize: '10px',
+      display: "inline-block",
+      width: "80px",
     },
   };
 
   const chartSeries = [
     {
       name: "Employer:K 72,000",
-      data: [15, 20, 25, 30, 35, 40, 45, 50, 55,60,70,80,90],
+      data: [10, 40, 80, 120, 160, 200, 240], 
       color: "#00008b",
     },
     {
       name: "Employee:K 52,000",
-      data: [12, 20, 28, 32, 38, 45, 50, 60, 63,70,75,80,88],
-      color:"#6528F7"
+      data: [20, 40, 80, 120, 160, 200, 240], 
+      color: "#6528F7",
     },
     {
       name: "Total Interest:K 214.555",
-      data: [20, 35, 55, 65, 75, 78, 82, 90, 95,100,105,110,115],
-      color:"#75C2F6"
+      data: [30, 40, 80, 120, 160, 200, 240], 
+      color: "#75C2F6",
     },
   ];
 
